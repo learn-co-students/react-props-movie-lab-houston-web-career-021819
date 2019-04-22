@@ -33,7 +33,7 @@ describe('<MovieShowcase />', () => {
       expect(card.props().genres).to.exist
       expect(card.props().poster).to.exist
     })
-  })
+  }) 
   
   it('has generated the correct prop values for the first movie', () => {
     expect(cards.at(0).props().title).to.equal('Choux and Maru go to Istanbul')
